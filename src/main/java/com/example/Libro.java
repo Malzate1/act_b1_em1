@@ -74,6 +74,8 @@ public class Libro {
             double descuento= precio*porcentaje/100;
             if (descuento<=montoMaximo){
                 precio=precio-descuento;
+            }else{
+                System.out.println("No es posible el descuento. El monto máximo es superior al porcentaje de descuento. ");
             }
 
         }
