@@ -10,9 +10,7 @@ public class Main {
         Estudiante estudiante2 = new Estudiante("Sara", 19, 4.4);
 
         // 2. Mostrar la información de ambos estudiantes
-
-
-
+        
         estudiante1.mostrarInformacion();
         estudiante2.mostrarInformacion();
 
