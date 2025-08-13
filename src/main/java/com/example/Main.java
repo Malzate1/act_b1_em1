@@ -26,8 +26,7 @@ public class Main {
         estudiante1.mostrarInformacion();
         estudiante2.mostrarInformacion();
 
-        System.out.println(
-                "=================================================================================================================================");
+        System.out.println("=================================================================================================================================");
 
         // TODO: Crear método main para:
 
@@ -45,7 +44,7 @@ public class Main {
         libro2.mostrarInformacion();
 
         // 4. Aplicar descuento usando ambas versiones del método
-        
+
         libro1.aplicarDescuento(10, 50000);
         libro2.aplicarDescuento(5);
 
