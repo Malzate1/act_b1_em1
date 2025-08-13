@@ -72,10 +72,19 @@ public class Libro {
     public void aplicarDescuento(double porcentaje,double montoMaximo){
         if (porcentaje >=0 && porcentaje <=100){
             double descuento= precio*porcentaje/100;
+            if (descuento<=montoMaximo){
+                precio=precio-descuento;
+            }
+
         }
     }
     
     // TODO: Crear método mostrarInformacion que imprima los datos del libro
-    
+
+    public void mostrarInformacion(){
+        System.out.println("Título: " +titulo);
+        System.out.println("Autor: " +autor);
+        System.out.println("Precio: " +precio);
+    }
     
 }
