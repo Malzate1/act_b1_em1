@@ -6,8 +6,6 @@ public class Estudiante {
     private int edad;
     private double promedio;
     
-    
-    }
 
     // TODO: Crear constructor que reciba nombre, edad y promedio como parámetros
     public Estudiante(String nombre,int edad,double promedio){
@@ -29,6 +27,7 @@ public class Estudiante {
 
     public double getPromedio() {
         return promedio;
+    }
 
     
     
@@ -67,6 +66,7 @@ public class Estudiante {
         System.out.println("Edad: " +edad);
         System.out.println("Promedio: " +promedio);
     }
-    
-   
+
 }
+
+
